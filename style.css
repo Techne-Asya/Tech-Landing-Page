@@ -7,7 +7,7 @@
 
 /* Base styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dancing Script', cursive;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
@@ -51,6 +51,7 @@ body {
 section h2 {
   font-size: 2rem;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 /* About Section */
@@ -59,6 +60,18 @@ section h2 {
   background-color: #e2e8f0;
   border-radius: 10px;
   margin-top: 30px;
+  text-align: center;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  margin: 0 auto 20px;
+  display: block;
 }
 
 /* Projects Section */
@@ -90,6 +103,7 @@ section h2 {
   background-color: #f1f5f9;
   border-radius: 10px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .skills ul {
@@ -97,6 +111,8 @@ section h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
+  padding: 0;
 }
 
 .skills li {

@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Tech Portfolio</title>
+  <title>Asya Westo | Tech Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Hero Section -->
+  <img src="profile.jpg" alt="Your Name" class="profile-pic" />
   <header class="hero">
-    <h1>Hi, I'm Your Name</h1>
+    <h1>Hi, I'm Asya Westo</h1>
     <p>Aspiring developer & tech generalist</p>
     <a href="#projects" class="btn">View Projects</a>
     <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
@@ -18,8 +20,9 @@
   <!-- About Me Section -->
   <section class="about">
     <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile photo" class="profile-pic" />
     <p>
-      I recently completed courses in Network Security, Data Science, and Computer Information Systems. I'm exploring paths in software development, data analysis, and cybersecurity. I'm passionate about solving problems and building useful, secure systems.
+      I recently completed courses in Network Security, Data Science, and Computer Information Systems. I'm exploring paths in software development, data analysis, and cybersecurity...
     </p>
   </section>
 
@@ -58,7 +61,7 @@
   <!-- Contact Section -->
   <footer class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>Email: <a href="mailto:asya@tooche.dev">asya@tooche.dev</a></p>
     <p><a href="https://github.com/yourusername" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
   </footer>
 </body>
