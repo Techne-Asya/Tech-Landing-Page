@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Tech Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Hi, I'm Your Name</h1>
+    <p>Aspiring developer & tech generalist</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+  </header>
+
+  <!-- About Me Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I recently completed courses in Network Security, Data Science, and Computer Information Systems. I'm exploring paths in software development, data analysis, and cybersecurity. I'm passionate about solving problems and building useful, secure systems.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Data Science Project</h3>
+        <p>Analyzed trends using public data with Python and pandas.</p>
+        <a href="#">GitHub Repo</a>
+      </div>
+      <div class="project-card">
+        <h3>Port Scanner</h3>
+        <p>Basic CLI tool in Python to scan open ports on a target IP.</p>
+        <a href="#">GitHub Repo</a>
+      </div>
+      <div class="project-card">
+        <h3>Task Tracker App</h3>
+        <p>Simple JavaScript app to track tasks with local storage.</p>
+        <a href="#">GitHub Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, JavaScript</li>
+      <li>Git, Wireshark, Jupyter</li>
+      <li>Data Analysis, Network Security, APIs</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <footer class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p><a href="https://github.com/yourusername" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
